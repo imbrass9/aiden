@@ -124,11 +124,14 @@ flowchart LR
 
 ## 🔧 함께 쓰면 좋은 외부 도구
 
-에이든이 만든 스킬은 아니지만, 클로드 코드를 굴릴 때 함께 쓰면 좋은 도구입니다. 원저자·출처를 그대로 밝힙니다.
+에이든이 만든 것은 아니지만, 클로드 코드를 굴릴 때 함께 쓰면 좋은 도구·스킬입니다. 원저자·출처를 그대로 밝힙니다.
 
-| 도구 | 한 줄 | 만든 이 |
+| 이름 | 한 줄 | 만든 이 |
 |---|---|---|
 | [**teamclaude · teamcodex**](https://github.com/sangrokjung/teamclaude) | 내가 가진 여러 클로드 코드·Codex 계정을 하나의 로컬 프록시로 묶어, 한도에 걸려도 세션이 안 끊기게 자동 전환 | [sangrokjung](https://github.com/sangrokjung) |
+| [**Remotion**](https://github.com/remotion-dev/remotion) | 코드(React)로 영상을 만드는 프레임워크 — 프로그래매틱 영상 제작 | [remotion-dev](https://github.com/remotion-dev) |
+| [**mediabunny**](https://github.com/Vanilagy/mediabunny) | 브라우저에서 오디오·비디오를 다루는 멀티미디어 라이브러리 | [Vanilagy](https://github.com/Vanilagy) |
+| [**skill-finder**](https://github.com/aktsmm/Agent-Skills) | 스킬을 찾고·설치하고·관리하는 스킬 (로컬·깃허브) | [yamapan](https://github.com/aktsmm) |
 
 > **설치**: `npm i -g teamcodex` → `teamcodex import`(기존 로그인 가져오기) → `teamcodex server`. **본인 계정을 본인 머신에서** 순환시킬 뿐, 계정 공유·한도 우회가 아닙니다(MIT · Node 18+).
 
