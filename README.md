@@ -42,23 +42,23 @@
 
 ```mermaid
 flowchart LR
-    subgraph 방향잡기
-        CLR["aiden-clarify<br/><sub>생각 명료화</sub>"]
-        CORE["aiden-core<br/><sub>코어 잡기</sub>"]
+    subgraph G1["방향 잡기"]
+        CLR["aiden-clarify<br/>생각 명료화"]
+        CORE["aiden-core<br/>코어 잡기"]
     end
-    subgraph 검증·설계
-        RXN["reaction-lab<br/><sub>가상 고객 반응</sub>"]
-        CONV["conversion-architect<br/><sub>전환 설계</sub>"]
+    subgraph G2["검증·설계"]
+        RXN["reaction-lab<br/>가상 고객 반응"]
+        CONV["conversion-architect<br/>전환 설계"]
     end
-    subgraph 생산·발행
-        OSMU["osmu · channel-composer<br/>newsletter-engine<br/><sub>채널 분화·발행</sub>"]
-        SEO["search-optimizer<br/><sub>검색·AI 노출</sub>"]
+    subgraph G3["생산·발행"]
+        OSMU["osmu · channel-composer<br/>newsletter-engine<br/>채널 분화·발행"]
+        SEO["search-optimizer<br/>검색·AI 노출"]
     end
 
     CLR --> CORE --> RXN --> CONV --> OSMU --> SEO
 
-    HT["humantouch-writing<br/><sub>사람이 쓴 글로</sub>"] -.글 검수.-> OSMU
-    WF["wireframe-first<br/><sub>화면 설계</sub>"] -.화면 작업.-> OSMU
+    HT["humantouch-writing<br/>사람이 쓴 글로"] -.->|글 검수| OSMU
+    WF["wireframe-first<br/>화면 설계"] -.->|화면 작업| OSMU
 
     style CLR fill:#2ea44f,color:#fff
     style CORE fill:#2ea44f,color:#fff
@@ -108,7 +108,17 @@ flowchart LR
 | [**humantouch-writing**](skills/humantouch-writing/README.md) | AI 티를 지우고 사람이 쓴 글로 | 원리 공개, 엔진은 컨설팅 시 제공 |
 | [**book-factory**](skills/book-factory/README.md) | 재료를 넣으면 책 한 권이 나오는 출간 파이프라인 | 개요 공개, 엔진은 컨설팅 시 제공 |
 
-> 🔴 **발행 엔진**(osmu · channel-composer · newsletter-engine · conversion-architect)은 실제 사업의 수익 구조라, 공개 대신 **에이든에게 컨설팅을 진행하면 전체를 제공**합니다.
+### 🔒 상세는 공개하지 않는 스킬 (에이든 컨설팅 시 제공)
+
+아래는 이름만 밝힙니다 — 실제 사업의 수익·전략 자산이라 페이지는 열지 않습니다. **에이든에게 컨설팅을 진행하면 전체를 함께 씁니다.** (이런 것까지 시스템으로 굴러갑니다.)
+
+| 스킬 | 한 줄 |
+|---|---|
+| **aiden-business-guard** | 모든 기획·카피·오퍼에 브랜드 포지셔닝을 관통 적용하는 가드 |
+| **osmu** | 원소스 1개를 7개 채널 발행 초안으로 분화하는 엔진 |
+| **channel-composer** | 채널별 문법·조판에 맞춰 게시물을 생성·검사 |
+| **newsletter-engine** | 주간 뉴스레터를 반복 생성·최적화하는 엔진 |
+| **conversion-architect** | 안 사는 이유를 첫 접점부터 선제 방어하는 전환 설계 |
 
 ---
 
