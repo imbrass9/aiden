@@ -17,6 +17,7 @@
   <a href="#-이게-뭔가요">이게 뭔가요?</a> &bull;
   <a href="#-스킬-지도">스킬 지도</a> &bull;
   <a href="#-무슨-스킬이-있어요">스킬 목록</a> &bull;
+  <a href="#-함께-쓰면-좋은-외부-도구">외부 도구</a> &bull;
   <a href="#-어떻게-써요">사용법</a> &bull;
   <a href="#-누가-만들었어요">만든 곳</a>
 </p>
@@ -106,6 +107,18 @@ flowchart LR
 | [**humantouch-writing**](skills/humantouch-writing/README.md) | AI 티를 지우고 사람이 쓴 글로 | 원리 공개, 엔진은 코호트 |
 
 > 🔴 **발행 엔진**(osmu · channel-composer · newsletter-engine · conversion-architect)은 실제 사업의 수익 구조라, 공개 대신 **부트캠프·컨설팅 코호트에서 전체를 제공**합니다.
+
+---
+
+## 🔧 함께 쓰면 좋은 외부 도구
+
+에이든이 만든 스킬은 아니지만, 클로드 코드를 굴릴 때 함께 쓰면 좋은 도구입니다. 원저자·출처를 그대로 밝힙니다.
+
+| 도구 | 한 줄 | 만든 이 |
+|---|---|---|
+| [**teamclaude · teamcodex**](https://github.com/sangrokjung/teamclaude) | 내가 가진 여러 클로드 코드·Codex 계정을 하나의 로컬 프록시로 묶어, 한도에 걸려도 세션이 안 끊기게 자동 전환 | [sangrokjung](https://github.com/sangrokjung) |
+
+> **설치**: `npm i -g teamcodex` → `teamcodex import`(기존 로그인 가져오기) → `teamcodex server`. **본인 계정을 본인 머신에서** 순환시킬 뿐, 계정 공유·한도 우회가 아닙니다(MIT · Node 18+).
 
 ---
 
