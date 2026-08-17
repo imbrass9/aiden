@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="AIDEN Skills">
+  <rect width="1200" height="300" fill="#1f2328"/>
+  <rect x="0" y="0" width="8" height="300" fill="#2ea44f"/>
+  <g font-family="ui-sans-serif, -apple-system, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif">
+    <text x="72" y="130" fill="#ffffff" font-size="72" font-weight="700" letter-spacing="-1">AIDEN</text>
+    <text x="330" y="130" fill="#2ea44f" font-size="72" font-weight="700" letter-spacing="-1">Skills</text>
+    <text x="74" y="182" fill="#9aa4ae" font-size="26" font-weight="400">클로드 코드로 1인 사업을 굴리는 실전 스킬 모음</text>
+    <line x1="74" y1="212" x2="220" y2="212" stroke="#3a4048" stroke-width="1"/>
+    <text x="74" y="248" fill="#6e7781" font-size="19" font-weight="400" letter-spacing="0.5">트리오브에이와 · 클로드 코드 멘토링 자료</text>
+  </g>
+</svg>
