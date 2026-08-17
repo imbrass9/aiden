@@ -133,6 +133,7 @@ flowchart LR
 | [**mediabunny**](https://github.com/Vanilagy/mediabunny) | 브라우저에서 오디오·비디오를 다루는 멀티미디어 라이브러리 | [Vanilagy](https://github.com/Vanilagy) |
 | [**skill-finder**](https://github.com/aktsmm/Agent-Skills) | 스킬을 찾고·설치하고·관리하는 스킬 (로컬·깃허브) | [yamapan](https://github.com/aktsmm) |
 | **grilling** | 계획·아이디어를 집요하게 캐물어 스트레스 테스트하는 스킬 | 원작자 미상 |
+| **grill-me** | grilling 세션을 바로 실행하는 런처 (슬래시 명령) | 원작자 미상 |
 
 > **설치**: `npm i -g teamcodex` → `teamcodex import`(기존 로그인 가져오기) → `teamcodex server`. **본인 계정을 본인 머신에서** 순환시킬 뿐, 계정 공유·한도 우회가 아닙니다(MIT · Node 18+).
 
