@@ -68,7 +68,7 @@ flowchart LR
     style SEO fill:#d1584f,color:#fff
 ```
 
-<sub>🟢 이 저장소에 페이지가 있는 공개 스킬 &nbsp;·&nbsp; 🟡 검증·설계 &nbsp;·&nbsp; 🔴 발행 엔진(코호트에서 전체 제공)</sub>
+<sub>🟢 이 저장소에 페이지가 있는 공개 스킬 &nbsp;·&nbsp; 🟡 검증·설계 &nbsp;·&nbsp; 🔴 발행 엔진(에이든 컨설팅 진행 시 전체 제공)</sub>
 
 ---
 
@@ -85,6 +85,7 @@ flowchart LR
 ### 만들기 전에 점검한다
 | 스킬 | 한 줄 | 이럴 때 |
 |---|---|---|
+| [**reaction-lab**](skills/reaction-lab/README.md) | 발행 전에 가상 고객 5각도 패널로 "먹힐까" 검증 | "이거 반응 어떨까", "누가 이걸 살까" |
 | [**virtual-customer-feedback-qa**](skills/virtual-customer-feedback-qa/README.md) | 가상 고객 100만 명에게 미리 반응·사용성 점검 | "이 가격이면 살까", "어디서 막힐까" |
 | [**wireframe-first**](skills/wireframe-first/README.md) | 화면 작업은 살아있는 와이어프레임 승인부터 | "대시보드 만들자", "화면 설계" |
 
@@ -104,9 +105,10 @@ flowchart LR
 ### 맛보기
 | 스킬 | 한 줄 | 비고 |
 |---|---|---|
-| [**humantouch-writing**](skills/humantouch-writing/README.md) | AI 티를 지우고 사람이 쓴 글로 | 원리 공개, 엔진은 코호트 |
+| [**humantouch-writing**](skills/humantouch-writing/README.md) | AI 티를 지우고 사람이 쓴 글로 | 원리 공개, 엔진은 컨설팅 시 제공 |
+| [**book-factory**](skills/book-factory/README.md) | 재료를 넣으면 책 한 권이 나오는 출간 파이프라인 | 개요 공개, 엔진은 컨설팅 시 제공 |
 
-> 🔴 **발행 엔진**(osmu · channel-composer · newsletter-engine · conversion-architect)은 실제 사업의 수익 구조라, 공개 대신 **부트캠프·컨설팅 코호트에서 전체를 제공**합니다.
+> 🔴 **발행 엔진**(osmu · channel-composer · newsletter-engine · conversion-architect)은 실제 사업의 수익 구조라, 공개 대신 **에이든에게 컨설팅을 진행하면 전체를 제공**합니다.
 
 ---
 
