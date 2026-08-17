@@ -69,7 +69,7 @@ pip install faster-whisper   # 인텔
 
 ## 설치
 
-**Mac / Linux**
+**Mac / Linux** <sub>(설치는 칩 공통 · 실행 의존성은 Apple Silicon·Intel 다름 → 아래 「어느 맥에서든 돕니다」)</sub>
 ```bash
 mkdir -p ~/.claude/skills
 git clone https://github.com/imbrass9/aiden.git

@@ -114,12 +114,14 @@ flowchart LR
 ### 1. 스킬을 클로드 코드에 넣습니다
 쓰고 싶은 스킬 폴더를 스킬 폴더(`~/.claude/skills/`) 아래에 두면 끝입니다. 아래는 `aiden-core` 예시이고, 폴더 이름만 바꾸면 다른 스킬도 같습니다.
 
-**Mac / Linux**
+**Mac / Linux** <sub>(Apple Silicon·Intel 공통 — 파일 복사라 칩과 무관)</sub>
 ```bash
 mkdir -p ~/.claude/skills
 git clone https://github.com/imbrass9/aiden.git
 cp -r aiden/skills/aiden-core ~/.claude/skills/
 ```
+
+> 칩(Apple Silicon / Intel)이 실제로 갈리는 스킬은 `shorts-factory` 하나입니다 — 전사 엔진이 다릅니다. 나머지는 파일을 복사하는 것뿐이라 칩과 무관합니다.
 
 **Windows (PowerShell)**
 ```powershell

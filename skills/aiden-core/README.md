@@ -118,7 +118,7 @@ flowchart TD
 
 ## 설치
 
-**Mac / Linux**
+**Mac / Linux** <sub>(Apple Silicon·Intel 공통 — 파일 복사라 칩과 무관)</sub>
 ```bash
 mkdir -p ~/.claude/skills
 git clone https://github.com/imbrass9/aiden.git
