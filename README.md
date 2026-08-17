@@ -156,6 +156,6 @@ Copy-Item -Recurse aiden\skills\aiden-core "$env:USERPROFILE\.claude\skills\"
 
 ---
 
-## 라이선스
+## 라이센스
 
 이 스킬들은 별도의 편집 없이 그대로 사용 가능합니다.
