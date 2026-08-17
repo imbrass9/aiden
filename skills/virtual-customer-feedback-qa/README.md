@@ -49,6 +49,26 @@ flowchart TD
 
 ---
 
+## 설치
+
+**Mac / Linux**
+```bash
+mkdir -p ~/.claude/skills
+git clone https://github.com/imbrass9/aiden.git
+cp -r aiden/skills/virtual-customer-feedback-qa ~/.claude/skills/
+```
+
+**Windows (PowerShell)**
+```powershell
+New-Item -ItemType Directory -Force "$env:USERPROFILE\.claude\skills" | Out-Null
+git clone https://github.com/imbrass9/aiden.git
+Copy-Item -Recurse aiden\skills\virtual-customer-feedback-qa "$env:USERPROFILE\.claude\skills\"
+```
+
+설치 후 클로드 코드를 다시 시작하면 스킬이 로드됩니다.
+
+---
+
 ## 이렇게 부르면 됩니다
 
 ```

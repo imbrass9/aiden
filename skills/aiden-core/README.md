@@ -118,16 +118,21 @@ flowchart TD
 
 ## 설치
 
-```
-~/.claude/skills/aiden-core/
-├── SKILL.md
-└── references/
-    ├── interview-branch.md   # 유형별 질문 세트
-    ├── examples.md           # 완성 예시
-    └── output-template.md    # 코어 한 장 양식
+**Mac / Linux**
+```bash
+mkdir -p ~/.claude/skills
+git clone https://github.com/imbrass9/aiden.git
+cp -r aiden/skills/aiden-core ~/.claude/skills/
 ```
 
----
+**Windows (PowerShell)**
+```powershell
+New-Item -ItemType Directory -Force "$env:USERPROFILE\.claude\skills" | Out-Null
+git clone https://github.com/imbrass9/aiden.git
+Copy-Item -Recurse aiden\skills\aiden-core "$env:USERPROFILE\.claude\skills\"
+```
+
+설치 후 클로드 코드를 다시 시작하면 스킬이 로드됩니다.
 
 ## 다음 단계
 

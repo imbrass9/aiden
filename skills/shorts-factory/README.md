@@ -67,6 +67,28 @@ pip install faster-whisper   # 인텔
 
 ---
 
+## 설치
+
+**Mac / Linux**
+```bash
+mkdir -p ~/.claude/skills
+git clone https://github.com/imbrass9/aiden.git
+cp -r aiden/skills/shorts-factory ~/.claude/skills/
+```
+
+**Windows (PowerShell)**
+```powershell
+New-Item -ItemType Directory -Force "$env:USERPROFILE\.claude\skills" | Out-Null
+git clone https://github.com/imbrass9/aiden.git
+Copy-Item -Recurse aiden\skills\shorts-factory "$env:USERPROFILE\.claude\skills\"
+```
+
+설치 후 클로드 코드를 다시 시작하면 스킬이 로드됩니다.
+
+> ⚠️ **실행 환경**: 위 설치는 Mac·Windows 모두 됩니다. 다만 이 파이프라인의 **실제 실행은 macOS 전용**입니다 — 얼굴 스캔 단계가 macOS Vision을 쓰기 때문입니다. Windows에서는 파일은 설치되지만 파이프라인 실행에는 맥이 필요합니다. (전사·렌더용 `ffmpeg`은 Mac `brew install ffmpeg` / Windows `winget install ffmpeg`.)
+
+---
+
 ## 이렇게 부르면 됩니다
 
 ```

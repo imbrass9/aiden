@@ -112,12 +112,23 @@ flowchart LR
 ## 🚀 어떻게 써요?
 
 ### 1. 스킬을 클로드 코드에 넣습니다
-쓰고 싶은 스킬 폴더를 `~/.claude/skills/` 아래에 두면 끝입니다.
+쓰고 싶은 스킬 폴더를 스킬 폴더(`~/.claude/skills/`) 아래에 두면 끝입니다. 아래는 `aiden-core` 예시이고, 폴더 이름만 바꾸면 다른 스킬도 같습니다.
 
+**Mac / Linux**
 ```bash
+mkdir -p ~/.claude/skills
 git clone https://github.com/imbrass9/aiden.git
 cp -r aiden/skills/aiden-core ~/.claude/skills/
 ```
+
+**Windows (PowerShell)**
+```powershell
+New-Item -ItemType Directory -Force "$env:USERPROFILE\.claude\skills" | Out-Null
+git clone https://github.com/imbrass9/aiden.git
+Copy-Item -Recurse aiden\skills\aiden-core "$env:USERPROFILE\.claude\skills\"
+```
+
+각 스킬 페이지에도 같은 Mac·Windows 설치법이 들어 있습니다.
 
 ### 2. 그냥 말을 걸면 됩니다
 스킬은 상황을 알아서 감지합니다. "코어 잡아줘"라고 하면 `aiden-core`가 켜져요. 각 페이지의 **"이렇게 부르면 됩니다"** 부분을 참고하세요.
